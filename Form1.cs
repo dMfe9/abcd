@@ -68,7 +68,6 @@ namespace WindowsFormsApp5
                 worker[cout].Experience = Convert.ToInt32(textBox2.Text);
                 worker[cout].ychst = comboBox2.Text;
                 dataGridView1.Rows.Add(worker[cout].FIO, worker[cout].Post, worker[cout].birthdate, worker[cout].ychst, worker[cout].Experience.ToString());
-                cout++;
             }
         }
 
